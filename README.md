@@ -1,8 +1,9 @@
 # HPA autoscaling using custom-metrics walkthrough on AWS EKS cluster.
-# steps tested on EKS cluster 1.11+.
 
-## Make sure you have Helm installed if not, you can install it using following steps.
+Note - steps tested on EKS cluster 1.11+.
 
+
+## Install Helm if not already installed in the cluster.
 ```
 wget https://storage.googleapis.com/kubernetes-helm/helm-v2.12.3-linux-amd64.tar.gz
 tar xzvzf helm-v2.12.3-linux-amd64.tar.gz --strip-components=1 -C /usr/local/bin/
