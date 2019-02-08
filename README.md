@@ -1,5 +1,5 @@
-# HPA autoscaling using custom-metrics walthrough on AWS EKS cluster
-
+# HPA autoscaling using custom-metrics walkthrough on AWS EKS cluster.
+# steps tested on EKS cluster 1.11+.
 
 ## Make sure you have Helm installed if not, you can install it using following steps.
 
