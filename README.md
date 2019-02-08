@@ -41,7 +41,8 @@ helm install \
   --set prometheus.prometheusSpec.serviceMonitorNamespaceSelector.matchNames[0]=default
 ```
 
-## k8s prom adapter https://github.com/helm/charts/tree/master/stable/prometheus-adapter
+## k8s prom adapter 
+https://github.com/helm/charts/tree/master/stable/prometheus-adapter
 
 ```
 helm install --name prometheus-adapter stable/prometheus-adapter --set prometheus.url="http://mon-prometheus-operator-prometheus.monitoring.svc",prometheus.port="9090" --set image.tag="v0.4.1" --set rbac.create="true" --namespace kube-system 
