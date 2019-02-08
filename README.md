@@ -1,4 +1,4 @@
-# HPA autoscaling using custom-metrics walkthrough on AWS EKS cluster.
+# HPA autoscaling using custom-metrics on AWS EKS cluster.
 
 Note - steps tested on EKS cluster 1.11+.
 
